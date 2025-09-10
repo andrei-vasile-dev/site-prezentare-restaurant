@@ -24,10 +24,10 @@ Instalare și rulare:
 Rezultatul poate fi observat în următoarele filmulețe:
 
 
-![Paginile Acasa și Meniu](video1.gif)
+![Paginile Acasa și Meniu](Images/video1.gif)
 
 
-![Paginile Catering, Rezervari și Recenzii](video2.gif)
+![Paginile Catering, Rezervari și Recenzii](Images/video2.gif)
 
 
-![Pagina Contact](video3.gif)
+![Pagina Contact](Images/video3.gif)
