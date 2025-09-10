@@ -21,7 +21,7 @@ Instalare și rulare:
 3. Rulează site-ul -> Pune proiectul într-un server local (ex: XAMPP, WAMP, MAMP) și accesează în browser http://localhost/nume-proiect/
 
 
-Rezultatul poate fi observat în următoarele filmulețe:
+Rezultatul poate fi observat în următoarele filmulețe (vă rog să aveți puțină răbdare, deoarece se încarcă mai greu):
 
 
 ![Paginile Acasa și Meniu](Images/video1.gif)
