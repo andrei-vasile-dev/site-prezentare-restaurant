@@ -1,0 +1,80 @@
+.urare {
+  text-align: center;
+  font-size: 30px;
+}
+
+.urare .myButton {
+  background: #DF9E50;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.urare .myButton:hover {
+  background: #ffab23;
+}
+
+.tabel-meniu {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.tabel-meniu td,
+.tabel-meniu th {
+
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.tabel-meniu tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabel-meniu tr:hover {
+  background-color: #ddd;
+}
+
+.tabel-meniu th {
+  padding: 12px 0px 12px;
+  font-size: 25px;
+  text-align: center;
+  background-color: #E69A55;
+  color: white;
+  border: 3px solid #ddd;
+}
+
+.hidden {
+  display: none;
+}
+
+.link-meniu {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black;
+}
+
+.link-meniu:visited {
+  color: black;
+}
+
+.link-meniu:hover {
+  color: blue;
+}
+
+.actiuni {
+  align-items: center;
+  text-align: center;
+}
+
+.ingrediente {
+  width: 40%;
+}

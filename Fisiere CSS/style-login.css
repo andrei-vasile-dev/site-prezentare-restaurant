@@ -1,0 +1,139 @@
+/* Stilizează pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Stilizează containerul de login */
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Titlul Login */
+.login-container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Stilizează tabelul */
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Stilizează label-urile */
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+/* Stilizează câmpurile de input */
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Stilizează butonul LOGIN */
+form input[type="submit"] {
+    background-color: #DF9E50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #ffab23 5%, #DF9E50 100%);
+	background-color:#ffab23;
+}
+
+/* Textul de sub formular */
+.no-account {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+}
+
+.create-account {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.create-account a {
+    color: #363530;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #E6C255;
+	background-color:#DF9E50;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:11px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f5e251;
+    position: absolute; /* Pentru poziționare absolută */
+    top: 40px; /* Distanța de sus */
+    left: 40px; /* Distanța de la stânga */
+}
+.myButton:hover {
+	background-color:#ffab23;
+}
+
+
+.reincearca,
+.buton-acasa {
+    background-color: #DF9E50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.reincearca:hover,
+.buton-acasa:hover {
+
+	background-color:#ffab23;
+}
+
+
+

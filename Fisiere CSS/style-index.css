@@ -1,0 +1,81 @@
+
+
+
+
+.header {
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex; /*  pentru a alinia elementele pe orizontala */
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+}
+
+.left {
+    flex: 1; /* Permite imaginii sa ocupe jumatate din latimea disponibila */
+    padding-right: 20px;
+}
+
+.left img {
+    width: 100%; /* imaginea sa ocupe toata latimea disponibila in cadrul div-ului */
+    width: 800px;
+    height: auto; 
+}
+
+.right {
+    flex: 1; /* Permite textului sa ocupe restul de spatiu disponibil */
+}
+
+.right p {
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #080101;
+}
+
+
+
+
+.imagine-container {
+    display: flex;
+    justify-content: center; /* Centreaza imaginile pe ecran */
+    gap: 80px;               /* Spatiu intre imagini */
+}
+
+.imagine {
+    position: relative;
+    width: 35%;              /* fiecare imagine sa ocupe 35% din latimea containerului */
+    text-align: center; 
+}
+
+.titlu-imagine {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.imagine img {
+    width: 100%;             /* Imaginile vor ocupa intreaga latime a containerului lor */
+    height: auto;
+}
+
+.text-sub-imagine {
+    margin-top: 10px;
+    font-size: 23px;
+    color: #333;
+    text-align: center;
+    width: 100%;             /* Lațimea textului va fi de 100% din latimea imaginii */
+}
+
+

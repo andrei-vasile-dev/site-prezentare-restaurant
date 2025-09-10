@@ -1,0 +1,82 @@
+.main {
+    background-color: bisque;
+}
+
+.imagine-container {
+    width: 100%;
+    height: 50vh;
+    overflow: hidden; /* Ascunde orice parte a imaginii care iese din container */
+    position: relative;
+}
+
+
+.imagine-larga {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asigura propotiile imaginii */
+    object-position: center;
+}
+
+.text-peste-imagine {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5); /* Fundal semi-transparent */
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main p
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px; /* Spatiu pe marginea stanga si dreapta */
+}
+
+
+.col {
+    flex: 1;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+
+.coloana1 img {
+    width: 100%; /* Fiecare imagine ocupa toata latimea coloanei */
+    margin-bottom: 10px;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.coloana1 img:hover {
+    border-color: #E69A55;
+}
+
+.coloana2 h3, 
+.coloana3 h3 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+
+.coloana2 p,
+.coloana3 p {
+    color: #555;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}

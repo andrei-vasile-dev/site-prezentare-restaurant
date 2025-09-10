@@ -1,0 +1,39 @@
+.meniu-navigare{
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;    /* Pozitioneaza la marginea de sus */
+    width: 100%; /* intreaga latime a ecranului */
+}
+
+.meniu-navigare li{
+    flex: 1; /* Fiecare element ocupa un spatiu egal */
+    text-align: center;
+    border-right: 2px solid #bbb; 
+}
+
+.meniu-navigare li:last-child {
+    border-right: none;
+}
+
+
+.meniu-navigare li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.meniu-navigare li a:hover{
+    background-color: #E69A55;
+    color: black;
+}
+
+

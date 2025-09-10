@@ -1,0 +1,92 @@
+
+
+.main {
+    background-color: bisque;
+}
+
+.imagine-container {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden; /* Ascunde orice parte a imaginii care iese din container */
+    position: relative;
+}
+
+.imagine-container:hover .imagine-larga {
+    opacity: 0.9;
+}
+
+.imagine-larga {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asigura propotiile imaginii */
+    object-position: center;
+}
+
+.text-peste-imagine {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5); /* Fundal semi-transparent */
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.main p
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 110px;
+}
+
+.contact-left {
+    width: 48%; /* 48% din latimea ecranului */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-right {
+    width: 48%; /* 48% din latimea ecranului */
+    height: 600px; /* Inaltimea sectiunii care contine harta */
+    display: flex;
+    justify-content: center; /* Centreaza pe orizontala */
+    position: relative;
+}
+
+iframe {
+    position: absolute;
+    top: 50%; /* Pozitioneaza harta pe verticala la mijlocul containerului */
+    transform: translateY(-35%); /* Corecteaza pozitionarea pentru a fi exact la mijloc */
+    width: 100%;
+    height: 450px;
+}
+
+.contact-item {
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+.contact-item h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.contact-item p {
+    font-size: 1.5em;
+    line-height: 0.5;
+}
+
+.urare h1 {
+    text-align: center;
+    font-size: 50px;
+}
